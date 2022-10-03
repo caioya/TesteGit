@@ -51,6 +51,7 @@ public class stepDefinition {
     @And("^Cards are( not)? displayed$")
     public void cards_are_displayed(String tipo) {
     	System.out.println("yesssss4");
+    	System.out.println("oiee Teste Git");
     }
     
     @Given("Validate the browser")
