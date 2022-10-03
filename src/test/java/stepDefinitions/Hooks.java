@@ -8,6 +8,7 @@ public class Hooks {
 	@Before("@MobileTest")
 	public void beforeValidation() {
 		System.out.println("before validation");
+       	System.out.println("oiee Teste Git3");
 	}
 	
 	@After("@MobileTest")
