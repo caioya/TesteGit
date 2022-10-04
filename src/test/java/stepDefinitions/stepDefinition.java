@@ -46,6 +46,10 @@ public class stepDefinition {
     @Then("^Homepage is populated$")
     public void homepage_is_populated() {
     	System.out.println("yesssss3");
+    	System.out.println("yesssss1");
+    	System.out.println("yesssss2");
+    	System.out.println("branch");
+
     }
 
     @And("^Cards are( not)? displayed$")
@@ -64,6 +68,10 @@ public class stepDefinition {
     
     @Then("Check if browser has started")
     public void check_if_browser_has_started() {
+    }
+    
+    @Then("Branch test")
+    public void branch_test() {
     }
 
 }
